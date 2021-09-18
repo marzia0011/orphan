@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial scale=1.0">
+        <title>Orphan Children Organization</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleeapis.com/css2?">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/donate.js"></script>
+    </head>
+    <body>        
+        <section class="header">
+            <div id="main-menu"></div>
+            <div class="mid-container">
+                <img src="img/donate.jpg" alt="children"/>
+                <br />
+                <br />
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <br />
+                <div>    
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br />
+                <div>    
+                    <label for="mobile">Mobile</label>
+                    <input type="phone" name="mobile" id="mobile">
+                </div>
+                <br />
+                <div>    
+                    <label for="medium">Medium</label>
+                    <input type="text" name="medium" id="medium">
+                </div>
+                <br />
+                <div>    
+                    <label for="account">Account</label>
+                    <input type="text" name="account" id="account">
+                </div>
+                <br />
+                <div>    
+                    <label for="amount">Amount</label>
+                    <input type="number" min="0" name="amount" id="amount">
+                </div>    
+                <br />
+                <button type="button" onclick="donate()">Donate</button>
+                <br /><br />
+            </div>
+        </section>
+    </body>
+</html>
